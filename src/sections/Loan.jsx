@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import loanImg from "../assets/1.png";
 
 const Loan = () => {
-  const whatsappNumber = "234813528112"; // replace with your number
+  const whatsappNumber = "2348135281122"; // replace with your number
 
   return (
     <section className="relative min-h-screen overflow-hidden bg-black text-white">
