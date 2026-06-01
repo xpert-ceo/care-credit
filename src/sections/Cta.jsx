@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 import { Link } from "react-router-dom"
 
 const CTA = () => {
-  const whatsappNumber = "234813528112";
+  const whatsappNumber = "+2348135281122";
   return (
     <section className="relative py-32 bg-white overflow-hidden">
 
