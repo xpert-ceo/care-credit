@@ -1,26 +1,46 @@
 import { motion } from "framer-motion"
+import img1 from "../assets/electronics/#samsung.jpg"
+import img2 from "../assets/electronics/541628292709180244.jpg"
+import img3 from "../assets/electronics/580471839515466576.jpg"
+import img4 from "../assets/electronics/94716398421063417.jpg"
+import img5 from "../assets/electronics/Hisense klima EkspertSmart 12 - PROMOTIVNA CIJENA….jpg"
+import img6 from "../assets/electronics/Infinix Smart 10 pocket friendly smartphone at….jpg"
+import img7 from "../assets/electronics/Iphone 16 Pro Max 2025 _ . . . #iphone #iphone16….jpg"
+import img8 from "../assets/electronics/Screen Size   55 Inch     Connectivity   Wi-Fi 6e….jpg"
+import img9 from "../assets/electronics/Stay connected with the Tecno POP 10 smartphone….jpg"
+import img10 from "../assets/electronics/Tecno Spark 40 Pro+ Unboxing Shows Everything….jpg"
+import img11 from "../assets/electronics/Tecno Spark 40___- 128gb and 8gb Ram__- Brand….jpg"
+import img12 from "../assets/electronics/The itel S18 series, which comprises itel S18 and….jpg"
+import img13 from "../assets/electronics/This item is a Hisense Double Door Refrigerator….jpg"
+import img14 from "../assets/electronics/Upgrade your style without spending big! The Tecno….jpg"
+import img15 from "../assets/electronics/Watch non-4K content in 4K on big UHD screens to….jpg"
+import img16 from "../assets/electronics/📢📢SNOWSEA FREEZER 400L🔥🔥🔥  _FEATURES_ _ 2….jpg"
+import img17 from "../assets/electronics/📱 iPhone 16 Plus_ O futuro na palma da sua mão! ✨….jpg"
+import img18 from "../assets/electronics/📺 LG SMART TV 55 INCH_💰 Bei_ 1,250,000_=_✅ High….jpg"
 
 const phones = [
-  "https://news.samsung.com/my/photo-capturing-a-new-era-of-galaxy-ai-snapshots-of-galaxy-unpacked-2024", // Samsung Galaxy S24
-  "https://photogallery.indiatimes.com/gadgets/phones/tecno-phantom-x2-smartphone-launched-in-india/photoarticleshow/96704830.cms", // Tecno Phantom X2
-  "https://id.infinixmobility.com/zero-30-5g", // Infinix Zero 30
-  "https://www.gizbot.com/latest-mobiles/itel-p55-10402/", // Itel P55
-  "https://www.sony.com.tw/en/bravia/transcript/x90k-official-video-text-transcript-2", // Sony Bravia XR
+  "img1",
+  "img2",
+  "img3",
+  "img4",
+  "img5",
 ]
 
 const electronics = [
-  "https://www.lg.com/sg/tvs-soundbars/oled/oledsbar-pto1/", // LG OLED evo
-  "https://qrcode.hisense.com/appliance/20009976?lang=en", // Hisense U8 TV
-  "https://www.thermocool.com.ng/product/refrigerators/side-by-side/side-by-side-refrigerator-hrf-540wbs/", // Thermocool Refrigerator
+   "img6",
+  "img7",
+  "img8",
+  "img9",
+  "img10",
 ]
 
 const appliances = [
-  "https://www.thermocool.com.ng/product/refrigerators/side-by-side/side-by-side-refrigerator-hrf-540wbs/", // Thermocool Refrigerator
-  "https://www.lg.com/sg/tvs-soundbars/oled/oledsbar-pto1/", // LG OLED evo
-  "https://qrcode.hisense.com/appliance/20009976?lang=en", // Hisense U8 TV
-  "https://news.samsung.com/my/photo-capturing-a-new-era-of-galaxy-ai-snapshots-of-galaxy-unpacked-2024", // Samsung Galaxy S24
-  "https://photogallery.indiatimes.com/gadgets/phones/tecno-phantom-x2-smartphone-launched-in-india/photoarticleshow/96704830.cms", // Tecno Phantom X2
-]
+   "img11",
+  "img12",
+  "img13",
+  "img14",
+  "img15",
+  ]
   
 const Row = ({ images, reverse = false }) => (
   <div className="overflow-hidden py-4">
