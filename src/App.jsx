@@ -12,6 +12,7 @@ import Loan from './sections/Loan'
 import Savings from './sections/Savings'
 import Electronics from './sections/Electronics'
 import Investment from './sections/Investment'
+import Gallery from './sections/Gallery'
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
 
       <div id="electronics">
         <Electronics />
+        <Gallery />
       </div>
   
       <WhyUs />
