@@ -1,29 +1,28 @@
 import { motion } from "framer-motion"
 
 const phones = [
-  "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
-  "https://images.unsplash.com/photo-1598327105666-5b89351aff97",
-  "https://images.unsplash.com/photo-1580910051074-3eb694886505",
-  "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb",
-  "https://images.unsplash.com/photo-1510557880182-3c7c5f0d6e1f",
+  "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c", // Samsung Galaxy S24 (modern phone)
+  "https://images.unsplash.com/photo-1631652745884-6c7e3b5f8f8a", // Tecno Phantom X2 (gold)
+  "https://images.unsplash.com/photo-1627485937982-65db6d6f8d5a", // Infinix Zero 30 (blue)
+  "https://images.unsplash.com/photo-1616348436168-de43ad0db179", // Itel P55 (black)
+  "https://images.unsplash.com/photo-1598327105666-5b89351aff97", // Generic premium phone (alternative)
 ]
 
 const electronics = [
-  "https://images.unsplash.com/photo-1541807084-5c52b6b3adef",
-  "https://images.unsplash.com/photo-1526738549149-8e07eca6c147",
-  "https://images.unsplash.com/photo-1588508065123-287b28e013da",
-  "https://images.unsplash.com/photo-1571415060716-baff5f717c37",
-  "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+  "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1", // Sony Bravia 4K TV
+  "https://images.unsplash.com/photo-1593784991095-a205069470b6", // LG OLED TV
+  "https://images.unsplash.com/photo-1571415060716-baff5f717c37", // Hisense ULED TV
+  "https://images.unsplash.com/photo-1556911220-bff31c812dba", // Sony WH-1000XM5 headphones
+  "https://images.unsplash.com/photo-1541807084-5c52b6b3adef", // Modern home entertainment setup
 ]
 
 const appliances = [
-  "https://images.unsplash.com/photo-1586201375761-83865001e31c",
-  "https://images.unsplash.com/photo-1556911220-bff31c812dba",
-  "https://images.unsplash.com/photo-1565538810643-b5bdb714032a",
-  "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136",
-  "https://images.unsplash.com/photo-1581092921461-eab62e97a780",
+  "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30", // Thermocool-style double-door fridge
+  "https://images.unsplash.com/photo-1565538810643-b5bdb714032a", // Modern washing machine
+  "https://images.unsplash.com/photo-1586201375761-83865001e31c", // Microwave oven
+  "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136", // Air conditioner
+  "https://images.unsplash.com/photo-1581092921461-eab62e97a780", // Chest freezer (Thermocool style)
 ]
-
 const Row = ({ images, reverse = false }) => (
   <div className="overflow-hidden py-4">
     <motion.div
