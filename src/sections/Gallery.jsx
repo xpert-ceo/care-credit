@@ -1,28 +1,27 @@
 import { motion } from "framer-motion"
 
 const phones = [
-  "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c", // Samsung Galaxy S24 (modern phone)
-  "https://images.unsplash.com/photo-1631652745884-6c7e3b5f8f8a", // Tecno Phantom X2 (gold)
-  "https://images.unsplash.com/photo-1627485937982-65db6d6f8d5a", // Infinix Zero 30 (blue)
-  "https://images.unsplash.com/photo-1616348436168-de43ad0db179", // Itel P55 (black)
-  "https://images.unsplash.com/photo-1598327105666-5b89351aff97", // Generic premium phone (alternative)
+  "https://news.samsung.com/my/photo-capturing-a-new-era-of-galaxy-ai-snapshots-of-galaxy-unpacked-2024", // Samsung Galaxy S24
+  "https://photogallery.indiatimes.com/gadgets/phones/tecno-phantom-x2-smartphone-launched-in-india/photoarticleshow/96704830.cms", // Tecno Phantom X2
+  "https://id.infinixmobility.com/zero-30-5g", // Infinix Zero 30
+  "https://www.gizbot.com/latest-mobiles/itel-p55-10402/", // Itel P55
+  "https://www.sony.com.tw/en/bravia/transcript/x90k-official-video-text-transcript-2", // Sony Bravia XR
 ]
 
 const electronics = [
-  "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1", // Sony Bravia 4K TV
-  "https://images.unsplash.com/photo-1593784991095-a205069470b6", // LG OLED TV
-  "https://images.unsplash.com/photo-1571415060716-baff5f717c37", // Hisense ULED TV
-  "https://images.unsplash.com/photo-1556911220-bff31c812dba", // Sony WH-1000XM5 headphones
-  "https://images.unsplash.com/photo-1541807084-5c52b6b3adef", // Modern home entertainment setup
+  "https://www.lg.com/sg/tvs-soundbars/oled/oledsbar-pto1/", // LG OLED evo
+  "https://qrcode.hisense.com/appliance/20009976?lang=en", // Hisense U8 TV
+  "https://www.thermocool.com.ng/product/refrigerators/side-by-side/side-by-side-refrigerator-hrf-540wbs/", // Thermocool Refrigerator
 ]
 
 const appliances = [
-  "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30", // Thermocool-style double-door fridge
-  "https://images.unsplash.com/photo-1565538810643-b5bdb714032a", // Modern washing machine
-  "https://images.unsplash.com/photo-1586201375761-83865001e31c", // Microwave oven
-  "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136", // Air conditioner
-  "https://images.unsplash.com/photo-1581092921461-eab62e97a780", // Chest freezer (Thermocool style)
+  "https://www.thermocool.com.ng/product/refrigerators/side-by-side/side-by-side-refrigerator-hrf-540wbs/", // Thermocool Refrigerator
+  "https://www.lg.com/sg/tvs-soundbars/oled/oledsbar-pto1/", // LG OLED evo
+  "https://qrcode.hisense.com/appliance/20009976?lang=en", // Hisense U8 TV
+  "https://news.samsung.com/my/photo-capturing-a-new-era-of-galaxy-ai-snapshots-of-galaxy-unpacked-2024", // Samsung Galaxy S24
+  "https://photogallery.indiatimes.com/gadgets/phones/tecno-phantom-x2-smartphone-launched-in-india/photoarticleshow/96704830.cms", // Tecno Phantom X2
 ]
+  
 const Row = ({ images, reverse = false }) => (
   <div className="overflow-hidden py-4">
     <motion.div
