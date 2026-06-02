@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import investmentImg from "../assets/3.png";
 
 const Investment = () => {
-  const whatsappNumber = "234813528112";
+  const whatsappNumber = "2348135281122";
 
   return (
     <section className="relative min-h-screen overflow-hidden bg-black text-white">
