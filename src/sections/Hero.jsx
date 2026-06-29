@@ -133,7 +133,7 @@ const Hero = () => {
               className="mt-10 flex flex-wrap gap-5"
             >
 
-              <a href="#loans"
+              <a href="httsp://account.carecreditmfb.com/apply-loan"
                 className="
                   px-7 py-4
                   bg-[#C8A44D]
