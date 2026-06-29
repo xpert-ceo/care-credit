@@ -76,7 +76,7 @@ const Loan = () => {
 
             {/* CTA Button */}
             <motion.a
-              href="httsp://account.carecreditmfb.com/apply-loan"
+              href="https://account.carecreditmfb.com/apply-loan"
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, y: 15 }}
