@@ -147,7 +147,7 @@ const CTA = () => {
               </a>
 
               {/* GET STARTED */}
-              <a href={`https://wa.me/${whatsappNumber}?text=Hello%2C%20I%20want%20to%20get%20started`} target="_blank" rel="noopener noreferrer">
+              <a href={"httsp://account.carecreditmfb.com/apply-loan">
 
                 <motion.button
                   whileHover={{ y: -2 }}
