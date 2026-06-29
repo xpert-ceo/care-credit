@@ -147,27 +147,30 @@ const CTA = () => {
               </a>
 
               {/* GET STARTED */}
-              <a href={"httsp://account.carecreditmfb.com/apply-loan">
-
-                <motion.button
-                  whileHover={{ y: -2 }}
-                  whileTap={{ scale: 0.98 }}
-                  className="
-                    px-7 py-4
-                    rounded-full
-                    border border-white/10
-                    bg-white/[0.03]
-                    backdrop-blur-xl
-                    text-white
-                    font-medium
-                    hover:bg-white/[0.06]
-                    transition-all duration-300
-                  "
-                >
-                  Get Started
-                </motion.button>
-
-              </a>
+<a
+  href="https://account.carecreditmfb.com/apply-loan"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <motion.button
+    whileHover={{ y: -2 }}
+    whileTap={{ scale: 0.98 }}
+    className="
+      px-7 py-4
+      rounded-full
+      border border-white/10
+      bg-white/[0.03]
+      backdrop-blur-xl
+      text-white
+      font-medium
+      hover:bg-white/[0.06]
+      transition-all duration-300
+    "
+  >
+    Get Started
+  </motion.button>
+</a>
+              
 
             </motion.div>
 
